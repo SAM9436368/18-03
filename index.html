@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav {
+            background-color: aqua;
+        }
+
+        .div2 {
+            background-color: aquamarine;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            margin: 2px;
+            padding: 32px;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        img {
+            float: left;
+        }
+
+        .card {
+            border: 2px solid red;
+        }
+
+        .card {
+            float: right;
+            clear: both;
+        }
+    </style>
+
+    <style>
+        .box:first-child {
+            background-color: rgb(17, 176, 245);
+        }
+
+        .box::first-letter {
+            color: yellow;
+        }
+
+        .box::first-line {
+            color: crimson;
+        }
+
+        .boxes * {
+            border: 2px solid violet;
+        }
+    </style>
+
+    <style>
+        *{
+            margin: 12px;;
+            padding: 12px;;
+        }
+        li {
+            background-color: aqua;
+            color: rgb(5, 5, 5);
+            font-size: 20px;
+        }
+        ul{
+            padding: 0px;
+            margin: 0px;
+        }
+        .li box4 {
+            background: rgb(245, 40, 17);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>saurabh</li>
+            <li>saurabh</li>
+            <li>saurabh</li>
+        </ul>
+    </div>
+    <div class="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dignissimos expedita doloribus
+        porro repellat impedit optio corporis animi ad perspiciatis rerum, error ut rem eveniet ex harum maiores eos
+        possimus?</div>
+
+    <div class="cards">
+        <img src="https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?w=996&t=st=1710779362~exp=1710779962~hmac=553ed18670936344f9070aa3ffeeee43208aac13c246a6e1f62dc80c2ec78cb9"
+            alt="" height="180px">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, rerum distinctio? Corporis nostrum
+                doloremque tempora. Aliquam amet dui ipsa culpa et iste assumenda ab quas tempore numquam qlestiae animi
+                excepturi. Corrupti laboriosam, nostrum exercitationem eligendi sunt ad quod reiciendis culpa vel velit
+                temporibus reprehenderit, ex eos corporis?</p>
+        </div>
+        <div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga perspiciatis provident
+            expedita, veniam natus corrupti doloribus magnam sunt! Corrupti, maiores culpa beatae unde cum eaque nemo
+            eligendi nam facere sit!</div>
+        <div class="card">card3</div>
+    </div>
+
+    <div class="boxes">
+        <div class="box">Lorem m amet, quisquam, cum ipsum.</div>
+        <div class="box">i am a box 2</div>
+        <div class="box">i am a box 3</div>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li> home</li>
+                <li> home</li>
+                <li> home</li>
+                <li class="box4"> home</li>
+               
+            </ul>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>
